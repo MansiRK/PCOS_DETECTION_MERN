@@ -628,6 +628,7 @@ p span {
   line-height: 24px;
   color: var(--light-gray);
 }
+
 @media screen and (max-width: 1024px) {
   .counter-row img {
     height: 400px;
@@ -706,5 +707,21 @@ p span {
 
   .quick-links .navbar-nav {
     display: block;
+  }
+
+  .quick-links .navbar-nav .nav-item {
+    padding: 10px 0;
+  }
+
+  .quick-links .navbar-nav .nav-item .nav-link {
+    padding-left: 0;
+  }
+
+  .contact-details a {
+    padding-left: 0;
+  }
+
+  .social-media a:first-child {
+    padding-left: 0;
   }
 }
