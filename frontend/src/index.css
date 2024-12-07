@@ -62,6 +62,11 @@ body {
   color: var(--teal-font);
 }
 
+.mobile-navbar .nav-link {
+  padding: 25px 0 !important;
+  color: var(--dark-gray) !important;
+}
+
 .navbar-toggler {
   border: none;
 }
@@ -69,6 +74,10 @@ body {
 .navbar-toggler:focus,
 .offcanvas-header .btn-close:focus {
   box-shadow: none;
+}
+
+.offcanvas {
+  width: 70%;
 }
 
 /* HOME */
