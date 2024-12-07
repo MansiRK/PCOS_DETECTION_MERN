@@ -52,14 +52,14 @@ const Footer = () => {
 
             <div className="row align-items-center">
               <div className="col-lg-6 d-flex mt-lg-0 mt-4">
-                <a className="navbar-brand" href="#">
+                <NavLink className="navbar-brand" to="/">
                   <img
                     src="/images/pcos-logo.png"
                     width={"280px"}
                     height={"130px"}
                     alt="logo"
                   />
-                </a>
+                </NavLink>
               </div>
 
               <div className="col-lg-6 mt-lg-0 mt-4">

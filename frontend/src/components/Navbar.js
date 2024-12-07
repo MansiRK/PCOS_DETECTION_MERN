@@ -6,14 +6,14 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg desktop-navbar">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" to="/">
             <img
               src="/images/pcos-logo.png"
               width={"160px"}
               height={"80px"}
               alt="logo"
             />
-          </a>
+          </NavLink>
 
           <div className=" navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -50,14 +50,14 @@ const Navbar = () => {
 
       <nav class="navbar bg-body-tertiary fixed-top mobile-navbar">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <NavLink class="navbar-brand" to="/">
             <img
               src="/images/pcos-logo.png"
               width={"160px"}
               height={"80px"}
               alt="logo"
             />
-          </a>
+          </NavLink>
           <button
             class="navbar-toggler"
             type="button"
