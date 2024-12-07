@@ -77,7 +77,7 @@ body {
 }
 
 .offcanvas {
-  width: 70%;
+  width: 70% !important;
 }
 
 /* HOME */
