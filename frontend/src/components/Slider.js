@@ -25,7 +25,7 @@ const Slider = ({ slides, settings }) => {
                           <h1 className="title">{slide.title}</h1>
                           <p className="subtitle">{slide.subtitle}</p>
                         </div>
-                        <div className="col-lg-6 text-end mt-lg-0 mt-5">
+                        <div className="col-lg-6 text-lg-end text-start mt-lg-0 mt-5">
                           <div className="custom-btn banner-btn">
                             <NavLink to="/">{slide.btnText}</NavLink>
                           </div>

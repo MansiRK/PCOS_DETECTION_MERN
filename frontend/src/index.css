@@ -130,6 +130,10 @@ body {
   border: 2px solid transparent;
 }
 
+.custom-btn.banner-btn {
+  padding-left: 20px;
+}
+
 .custom-btn.about-us-btn {
   margin-top: 60px;
 }
