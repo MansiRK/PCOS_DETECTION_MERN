@@ -659,13 +659,13 @@ p span {
 
 @media screen and (max-width: 576px) {
   .title {
-    font-size: 45px;
-    line-height: 55px;
-    padding: 50px 20px;
+    font-size: 35px;
+    line-height: 45px;
+    padding: 20px;
   }
 
   .subtitle {
-    padding: 20px;
+    padding: 10px;
   }
 
   .points-div .single-point {
