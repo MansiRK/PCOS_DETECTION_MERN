@@ -658,6 +658,10 @@ p span {
 }
 
 @media screen and (max-width: 576px) {
+  .banner-section .element {
+    height: 93vh;
+  }
+
   .title {
     font-size: 35px;
     line-height: 45px;
@@ -665,7 +669,9 @@ p span {
   }
 
   .subtitle {
-    padding: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 28px;
   }
 
   .points-div .single-point {
